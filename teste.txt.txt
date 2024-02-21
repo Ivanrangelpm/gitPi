@@ -1,0 +1,15 @@
+OLá mundo
+
+
+COMANDOS 
+
+git config --global user.name Ivanrangelpm
+
+git config --global user.email ivan.marcolin@sptech.school
+
+git status
+
+git add .  -> adicionar alterações (o ponto serve para marcar TODAS)
+
+
+git commit - m "comentario da alteracao"
