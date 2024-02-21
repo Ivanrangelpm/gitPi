@@ -13,3 +13,9 @@ git add .  -> adicionar alterações (o ponto serve para marcar TODAS)
 
 
 git commit - m "comentario da alteracao"
+
+git push
+
+git config --global --unset user.name
+
+git config --global --unset user.email
