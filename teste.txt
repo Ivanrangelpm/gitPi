@@ -14,7 +14,11 @@ git add .  -> adicionar alterações (o ponto serve para marcar TODAS)
 
 git commit - m "comentario da alteracao"
 
-git push
+git push - subir para nuvem 
+
+git pull - baixar da nuvem para o remoto
+
+
 
 git config --global --unset user.name
 
