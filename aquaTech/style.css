@@ -1,0 +1,36 @@
+body{
+    margin: 0; /* Espaçamento externo do elemento */
+    padding: 0; /* Espaçamento interno do elemento */
+    font-family: Verdana;
+    background-color: black;
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd; /* Grossura, estilo, cor */
+    flex-direction: flex;
+}
+
+.navbar{
+    display: flex; /* Display flexivel */
+    flex-direction: row; /* Direção que os elementos devem tomar dentro do flex */
+    list-style: none; /* Tira o estilo da lista */
+    justify-content: space-between;
+    width: 300px;
+    /* gap: 20px; */
+    color: #e3b062;
+    align-items: center; /* centraliza os items no sentido vertical */
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto; /* Automaticamente centraliza o elemento distribuindo o espaço restante */
+}
+
+.titulo{
+    color: #32b9cd;
+}
+
+.header .container{ /* Container filho do header*/
+    justify-content: space-between;
+}
